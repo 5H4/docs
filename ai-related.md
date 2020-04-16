@@ -6,14 +6,16 @@
 		- required imports
 			- collections
 			- pandas
-			- random
 			- difflib
+			- requests
 			- dir src.app".py" -> recommend func.
 				- from sklearn.feature_extraction.text import TfidfVectorizer [Alghoritm]
 				- from sklearn.metrics.pairwise import linear_kernel [Alghoritm]
 		- API request param: sku=$sku$ type= [json, ui]
 			- get related product of target sku.
-
+	- Minimum prod. quantity is 5
+	- Minimut target prod. quantity is 5
+	- [ZOHO != OMG] skip prod.
 
 - Sklearn machine learning
 	- [Sklearn Documentation](https://scikit-learn.org/)
